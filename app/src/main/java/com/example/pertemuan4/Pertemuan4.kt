@@ -43,3 +43,6 @@ fun FirstOnActivity(modifier: Modifier = Modifier) {
             text = stringResource(R.string.univ),
             fontSize = 22.sp
         )
+
+        Spacer(modifier = Modifier.height(25.dp))
+
