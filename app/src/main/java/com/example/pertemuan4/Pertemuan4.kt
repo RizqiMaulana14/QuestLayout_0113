@@ -51,4 +51,13 @@ fun FirstOnActivity(modifier: Modifier = Modifier) {
                 .fillMaxWidth()
                 .padding(12.dp),
             colors = CardDefaults.cardColors(containerColor = Color.DarkGray)
-        )
+        ) {
+            Row {
+                Image(
+                    painter = painterResource(R.drawable.logo),
+                    contentDescription = null,
+                    modifier = Modifier
+                        .size(100.dp)
+                        .padding(5.dp)
+                )
+
