@@ -29,3 +29,6 @@ import com.example.pertemuan4.R
 @Composable
 fun FirstOnActivity(modifier: Modifier = Modifier) {
     Column(
+        modifier = modifier
+            .fillMaxSize()
+            .padding(top = 100.dp),
