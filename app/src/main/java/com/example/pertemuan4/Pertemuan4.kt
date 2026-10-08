@@ -32,3 +32,4 @@ fun FirstOnActivity(modifier: Modifier = Modifier) {
         modifier = modifier
             .fillMaxSize()
             .padding(top = 100.dp),
+        horizontalAlignment = Alignment.CenterHorizontally
